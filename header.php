@@ -40,8 +40,13 @@
 					<a href="index.php" class="c-logo">
 						<img src="assets/base/img/layout/logos/logo-1.png" alt="新竹市政府" class="c-desktop-logo" style="margin:-10px 0px">
 						<img src="assets/base/img/layout/logos/logo-2.png" alt="新竹市政府" class="c-desktop-logo-inverse">
-						<img src="assets/base/img/layout/logos/logo-1.png" alt="新竹市政府" class="c-mobile-logo">
+						<img src="assets/base/img/layout/logos/logo-1.png" alt="新竹市政府" class="c-mobile-logo" style="margin:-10px 0px">
 					</a>
+					<button class="c-hor-nav-toggler" type="button" data-target=".c-mega-menu">
+              <span class="c-line"></span>
+              <span class="c-line"></span>
+              <span class="c-line"></span>
+          </button>
 					<button class="c-search-toggler" type="button">
 							<i class="fa fa-search"></i>
 					</button>
@@ -60,9 +65,6 @@
 				<!-- Dropdown menu toggle on mobile: c-toggler class can be applied to the link arrow or link itself depending on toggle mode -->
 				<nav class="c-mega-menu c-pull-right c-mega-menu-dark c-mega-menu-dark-mobile c-theme c-fonts-uppercase c-fonts-bold">
 					<ul class="nav navbar-nav c-theme-nav">
-						<li class="c-menu-type-classic">
-							<a href="javascript:;" class="c-link dropdown-toggle">網頁導覽</a>
-						</li>
 
 						<li class="c-menu-type-classic c-active">
 								<a href="index.php" class="c-link dropdown-toggle">首頁</a>
@@ -73,8 +75,7 @@
 							
 							<ul class="dropdown-menu c-menu-type-classic c-pull-left">
 								<li class="dropdown-submenu"><a href="javascript:;">市政新聞<span class="c-arrow c-toggler"></a></li>
-								<li class="dropdown-submenu"><a href="javascript:;">科技園區<span class="c-arrow c-toggler"></a></li>
-								<li class="dropdown-submenu"><a href="standard_case.php">案子發包<span class="c-arrow c-toggler"></span></a></li>
+								<li class="dropdown-submenu"><a href="standard_case.php">政府標案<span class="c-arrow c-toggler"></span></a></li>
 								<li class="dropdown-submenu"><a href="open_data.php">公開資料<span class="c-arrow c-toggler"></span></a></li>
 							</ul>
 						</li>
@@ -83,7 +84,7 @@
 							<a href="javascript:;" class="c-link dropdown-toggle">市府介紹<span class="c-arrow c-toggler"></span></a>
 							
 							<ul class="dropdown-menu c-menu-type-classic c-pull-left">
-								<li class="dropdown-submenu"><a href="page_person.php">市長<span class="c-arrow c-toggler"></a></li>
+								<li class="dropdown-submenu"><a href="page_person.php">市長介紹<span class="c-arrow c-toggler"></a></li>
 								<li class="dropdown-submenu"><a href="all_department.php">市府各部門介紹<span class="c-arrow c-toggler"></a></li>
 							</ul>
 						</li>
@@ -92,15 +93,26 @@
 							<a href="javascript:;" class="c-link dropdown-toggle">主題服務<span class="c-arrow c-toggler"></span></a>
 							
 							<ul class="dropdown-menu c-menu-type-classic c-pull-left">
-								<li class="dropdown-submenu"><a href="javascript:;">市長<span class="c-arrow c-toggler"></a></li>
-								<li class="dropdown-submenu"><a href="javascript:;">市府各部門介紹<span class="c-arrow c-toggler"></a></li>
+								<li class="dropdown-submenu"><a href="javascript:;">新竹市APP<span class="c-arrow c-toggler"></a></li>
+								<li class="dropdown-submenu"><a href="javascript:;">e好辦<span class="c-arrow c-toggler"></a></li>
+								<li class="dropdown-submenu"><a href="javascript:;">市長臉書<span class="c-arrow c-toggler"></a></li>
+								<li class="dropdown-submenu"><a href="javascript:;">服務中心<span class="c-arrow c-toggler"></a></li>
+								<li class="dropdown-submenu"><a href="javascript:;">服務專線<span class="c-arrow c-toggler"></a></li>
+								<li class="dropdown-submenu"><a href="javascript:;">服務信箱<span class="c-arrow c-toggler"></a></li>
+								<li class="dropdown-submenu"><a href="javascript:;">交通資訊<span class="c-arrow c-toggler"></a></li>
+								<li class="dropdown-submenu"><a href="javascript:;">法律扶助<span class="c-arrow c-toggler"></a></li>
+								<li class="dropdown-submenu"><a href="javascript:;">ＸＸ服務<span class="c-arrow c-toggler"></a></li>
+								<li class="dropdown-submenu"><a href="javascript:;">ＯＯ服務<span class="c-arrow c-toggler"></a></li>
 							</ul>
 						</li>
 
 						<li class="c-menu-type-classic">
 							<a href="jobs.php" class="c-link dropdown-toggle">徵才專區<span class="c-arrow c-toggler"></span></a>
 						</li>
-							
+
+						<li class="c-menu-type-classic">
+							<a href="guide.php" class="c-link dropdown-toggle">網頁導覽</a>
+						</li>
 
 						<li class="c-search-toggler-wrapper">
 								<a href="#" class="c-btn-icon c-search-toggler">

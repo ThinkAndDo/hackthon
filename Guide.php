@@ -10,6 +10,7 @@
     ?>
 
     <body class="c-layout-header-fixed c-layout-header-mobile-fixed">
+        <img src="assets/base/img/content/backgrounds/bg-67.jpg" alt="" style="width:100%; margin-top:-450px">
         <!-- BEGIN: LAYOUT/SIDEBARS/QUICK-SIDEBAR -->
         <nav class="c-layout-quick-sidebar">
             <div class="c-header">
@@ -80,15 +81,18 @@
                     <div class="c-content-feature-10">
                         <!-- Begin: Title 1 component -->
                         <div class="c-content-title-1">
-                            <h3 class="c-font-uppercase c-center c-font-bold">市府網頁導覽</h3>
+                            <h3 class="c-font-uppercase c-center c-font-bold"><br>市府網頁導覽</h3>
                         </div>
                         <!-- End-->
                         <ul class="c-list">
                             <li>
                                 <div class="c-card c-font-right">
-                                    <i class="icon-trophy c-font-27 c-theme-font c-float-right c-border c-border-opacity"></i>
+                                    <i class="icon-home c-font-27 c-theme-font c-float-right c-border c-border-opacity"></i>
                                     <div class="c-content c-content-right">
                                         <h3 class="c-font-uppercase c-font-bold">首頁</h3>
+                                        <p>熱門新聞、活動 1.1</p>
+                                        <p>市府訊息、公告 1.2</p>
+                                        <p>快速服務 1.3</p>
                                     </div>
                                 </div>
                                 <div class="c-border-bottom c-bg-opacity-2"></div>
@@ -96,10 +100,12 @@
                             <div class="c-border-middle c-bg-opacity-2"></div>
                             <li>
                                 <div class="c-card">
-                                    <i class="icon-rocket c-font-27 c-theme-font c-float-left c-border c-border-opacity"></i>
+                                    <i class="icon-notebook c-font-27 c-theme-font c-float-left c-border c-border-opacity"></i>
                                     <div class="c-content c-content-left">
                                         <h3 class="c-font-uppercase c-font-bold">公告資訊</h3>
-                                        <p>2.1 市政新聞 <br>2.2 科技園區<br>2.3 政府標案 <br>2.4 預算說明</p>
+                                        <p>2.1 市政新聞</p>
+                                        <p>2.2 政府標案</p>
+                                        <p>2.3 公開資料</p>
                                     </div>
                                 </div>
                                 <div class="c-border-bottom c-bg-opacity-2"></div>
@@ -108,11 +114,11 @@
                         <ul class="c-list">
                             <li>
                                 <div class="c-card c-font-right">
-                                    <i class="icon-layers c-font-27 c-theme-font c-float-right c-border c-border-opacity"></i>
+                                    <i class="icon-globe-alt c-font-27 c-theme-font c-float-right c-border c-border-opacity"></i>
                                     <div class="c-content c-content-right">
                                         <h3 class="c-font-uppercase c-font-bold">市府介紹</h3>
-                                        <p >市長 3.1
-										<br>各處部門 3.2</p>
+                                        <p>市長介紹 3.1</p>
+										<p>市府各部門介紹 3.2</p>
 									</div>
                                 </div>
                                 <div class="c-border-bottom c-bg-opacity-2"></div>
@@ -120,10 +126,17 @@
                             <div class="c-border-middle c-bg-opacity-2"></div>
                             <li class="c-border-grey-1-5">
                                 <div class="c-card">
-                                    <i class="icon-present c-font-27 c-theme-font c-float-left c-border c-border-opacity"></i>
+                                    <i class="icon-heart c-font-27 c-theme-font c-float-left c-border c-border-opacity"></i>
                                     <div class="c-content c-content-left">
                                         <h3 class="c-font-uppercase c-font-bold">主題服務</h3>
-                                        <p> 暫無</p>
+                                        <p>4.1 新竹市 APP</p>
+                                        <p>4.2 E 好辦</p>
+                                        <p>4.3 市長臉書</p>
+                                        <p>4.4 服務中心</p>
+                                        <p>4.5 服務專線</p>
+                                        <p>4.6 服務信箱</p>   
+                                        <p>4.5 交通資訊</p>
+                                        <p>4.6 法律扶助</p>
                                     </div>
                                 </div>
                                 <div class="c-border-bottom c-bg-opacity-2"></div>
@@ -132,10 +145,9 @@
                         <ul class="c-list">
                             <li>
                                 <div class="c-card c-font-right">
-                                    <i class="icon-book-open c-font-27 c-theme-font c-float-right c-border c-border-opacity"></i>
+                                    <i class="icon-user c-font-27 c-theme-font c-float-right c-border c-border-opacity"></i>
                                     <div class="c-content c-content-right">
                                         <h3 class="c-font-uppercase c-font-bold">徵才專區</h3>
-                                        <p> 前往徵才專區 </p>
                                     </div>
                                 </div>
                                 <div class="c-border-bottom c-bg-opacity-2 c-mobile"></div>
@@ -143,10 +155,9 @@
                             <div class="c-border-middle c-bg-opacity-2"></div>
                             <li>
                                 <div class="c-card">
-                                    <i class="icon-support c-font-27 c-theme-font c-float-left c-border c-border-opacity"></i>
+                                    <i class="icon-eye c-font-27 c-theme-font c-float-left c-border c-border-opacity"></i>
                                     <div class="c-content c-content-left">
-                                        <h3 class="c-font-uppercase c-font-bold">Stunning Customer Support</h3>
-                                        <p> Lorem ipsum dolor consetuer adipicing sed diam ticidut erat votpat dolore </p>
+                                        <h3 class="c-font-uppercase c-font-bold">市府快搜</h3>
                                     </div>
                                 </div>
                             </li>
